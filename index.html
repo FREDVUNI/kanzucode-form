@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CodeImpact-SurveyForm</title>
+      <link rel="shortcut icon" href="./assets/images/kanzucode.png" type="image/x-icon">
+      <link rel="stylesheet" href="./assets/css/style.css">
+   </head>
+   <body>
+      <div class="content">
+         <img src="./assets/images/kanzucode.png" alt="kanzucode" id="logo"/>
+         <div>
+            <h1 id="title">KanzuCode Survey Form</h1>
+            <p id="description">Take some time to fill in this form with your details.</p>
+         </div>
+      </div>
+      <form id="survey-form">
+         <div class="group">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" name="name" id="name" class="form-input" placeholder="Enter your name"/>
+         </div>
+         <div class="group">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" name="email" id="name" class="form-input" placeholder="Enter your email address"/>
+         </div>
+         <div class="group">
+            <label for="age" id="label-age">Age <span id="options">(optional)</span></label>
+            <input type="number" name="age" id="age" class="form-input"  min="9" max="25" placeholder="Enter your age"/>
+         </div>
+         <div class="group">
+            <label for="role" id="label-role">What best describes your current Role?</label>
+            <select name="role" id="role" class="form-input">
+               <option value="">Choose current role</option>
+               <option value="student">Student</option>
+               <option value="learner">Full Time Learner</option>
+               <option value="job">Employed</option>
+               <option value="other">Other</option>
+            </select>
+         </div>
+         <div class="group">
+            <p id="recommendation">Would you recommend the KCF Bootcamp to a friend?</p>
+            <label>
+            <input type="radio" name="recommend" value="Definitely" class="radiobtn" checked>
+            Definitely
+            </label>
+            <label>
+            <input type="radio" name="recommend" value="Maybe" class="radiobtn">
+            Maybe
+            </label>
+            <label>
+            <input type="radio" name="recommend" value="Not sure" class="radiobtn">
+            Not sure
+            </label>
+         </div>
+         <div class="group">
+            <p id="checking">What would you like to see improved in Bootcamp? <span id="options">(check all that apply)</span></p>
+            <label>
+            <input type="checkbox" checked value="front-end-projects">
+            Front-end-projects
+            </label>
+            <label>
+            <input type="checkbox" value="back-end-projects">
+            Back-end-projects
+            </label>
+            <label>
+            <input type="checkbox" value="data-visualization">
+            Data-visualization
+            </label>
+            <label>
+            <input type="checkbox" value="Pair-programming">
+            Pair-programming sessions
+            </label>
+            <label>
+            <input type="checkbox" value="Challenges">
+            Coding Challenges
+            </label>
+         </div>
+         <div class="group">
+            <label for="comment" id="label-comment">Comment</label>
+            <textarea name="comment" id="comment" cols="20" rows="5" class="form-input" placeholder="Enter your comment"></textarea>
+         </div>
+         <div class="group">
+            <button type="submit" id="submit">submit</button>
+         </div>
+      </form>
+   </body>
+</html>

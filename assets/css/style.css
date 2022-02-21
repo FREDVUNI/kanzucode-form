@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #25364a;
+}
+.content {
+    text-align: center;
+	padding-top: 4rem;
+	margin-bottom: 3rem;
+	display: flex;
+	justify-content: center;
+}
+#logo{
+    width:100px;
+    height:100px;
+}
+#title{
+    padding-top: 1rem;
+    font-size: 35px;
+    font-weight: 400;
+    color:#007bff;
+}
+#description{
+    color: #6c757d !important;
+    font-size: 18px;
+}
+#survey-form{
+	color: white;
+	width: 40%;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color:#6c757d;
+    font-size: 18px;
+    display: block;
+}
+#options{
+    color:#999999;
+}
+.group{
+    margin-bottom:1rem;
+}
+.form-input {
+    display: block;
+    width: 100%;
+    padding: .5rem .8rem;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+select{
+    height: 45px;
+}
+#recommendation{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color:#6c757d;
+    font-size: 18px;
+}
+.radiobtn{
+    margin-top: 5px;
+}
+#checking{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color:#6c757d;
+    font-size: 18px;
+}
+#submit{
+    border: 1px solid transparent;
+    padding: .5rem .8rem;
+    line-height: 1.8;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background-color: teal;
+    width: 100%;
+    font-size: 18px;
+}
