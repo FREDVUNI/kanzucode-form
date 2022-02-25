@@ -94,3 +94,60 @@ select{
     width: 100%;
     font-size: 18px;
 }
+/* iphone,samsung and other small screens */
+@media (max-width:480px){
+    .content {
+        padding:8px;
+        display: block;
+        justify-content: center;
+    }
+    #logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    #title {
+        padding-top: 1rem;
+        font-size: 25px;
+        font-weight: 200;
+        color: #007bff;
+    }
+
+    #description {
+        color: #6c757d !important;
+        font-size: 16px;
+    }
+
+    #survey-form {
+        color: white;
+        width: 90%;
+        padding-bottom: 3rem;
+    }
+}
+/* bigger than iphones */
+@media (max-width:768px) {
+    .content {
+        padding: 8px;
+        display: block;
+        justify-content: center;
+    }
+    #survey-form {
+        color: white;
+        width: 90%;
+        padding-bottom: 3rem;
+    }
+}
+/* ipads,tablets etc */
+@media (max-width:1200px) {
+    .content {
+        padding: 8px;
+        display: block;
+        justify-content: center;
+    }
+
+    #survey-form {
+        color: white;
+        width: 90%;
+        padding-bottom: 3rem;
+    }
+}
